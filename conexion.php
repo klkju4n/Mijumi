@@ -1,6 +1,6 @@
 <?php
 $dbHost = getenv("MYTEAM_DB_HOST") ?: "127.0.0.1";
-$dbUser = getenv("MYTEAM_DB_USER") ?: "root";
+$dbUser = getenv("MYTEAM_DB_USER") ?: "root"; // van a tener quev cambiar esto 
 $dbPassword = getenv("MYTEAM_DB_PASSWORD");
 if ($dbPassword === false) {
     $dbPassword = "";
